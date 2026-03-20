@@ -1,6 +1,6 @@
-# AIAgent
+## AIAgent
 
-## Project Architecture
+### Project Architecture
 
 ```mermaid
 
@@ -33,7 +33,7 @@ graph TD
 
 ```
 
-## Project folder structure
+### Project folder structure
 ```
 
 agentic-trade-surveillance/
@@ -65,5 +65,31 @@ agentic-trade-surveillance/
 └── data/
     └── trades.csv
 ```
+### Demo link 
 
+https://aiagent-ln0x.onrender.com
+
+<img width="372" height="178" alt="image" src="https://github.com/user-attachments/assets/991b7f89-b197-4b2f-b43f-eab9851a6310" />
+
+### Demo deployment on reander.com
+
+<img width="853" height="392" alt="image" src="https://github.com/user-attachments/assets/36454a75-d830-4216-8951-0a2fc1841d25" />
+
+### Demo run on webbrowser
+
+<img width="867" height="442" alt="image" src="https://github.com/user-attachments/assets/e24a6d49-99d9-48c0-bf91-5c31509a2fec" />
+
+### Running locally 
+
+```bash
+pip install -r requirements.txt
+uvicorn api:app --reload
+```
+
+### Output Sample shared in screenshots
+
+```bash
+Link for getting output
+http://127.0.0.1:8000/docs
+```
 
