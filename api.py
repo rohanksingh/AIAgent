@@ -1,4 +1,4 @@
-from fastapi import FastAPI
+from fastapi import FastAPI, Response
 from pydantic import BaseModel, Field
 from app.orchestrator import run_surveillance_workflow
 
@@ -14,6 +14,10 @@ class GoalRequest(BaseModel):
 @app.get("/")
 def home():
     return {"message": "Agentic AI API is running"}
+
+@app.head("/")
+def home_head():
+    return Response(status_code=200)
 
 @app.post("/run-agent")
 def run_agent(req: GoalRequest):
