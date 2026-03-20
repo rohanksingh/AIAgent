@@ -1,0 +1,11 @@
+﻿trade_id,trader_id,desk,product,price,quantity
+1,T001,FX,Forward,101.2,1000
+2,T002,Credit,Bond,99.8,500
+3,T003,Rates,Swap,110.5,2000
+4,T001,FX,Forward,140,9000
+5,T004,Equities,Option,98.2,300
+6,T002,Credits,Bond,100.1,700
+7,T005,FX,Spot,155,12000
+8,T006,Rates,Swap,102,450
+9,T003,Equities,Option,97.5,280
+10,T007,Credit,Bond,160,15000
