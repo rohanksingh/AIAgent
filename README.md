@@ -3,7 +3,6 @@
 ### Project Architecture
 
 ```mermaid
-
 graph TD
     A[agentic-trade-surveillance]
 
@@ -30,10 +29,10 @@ graph TD
 
     A --> J[data]
     J --> J1[trades.csv]
-
 ```
 
 ### Project folder structure
+
 ```
 
 agentic-trade-surveillance/
