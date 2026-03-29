@@ -1,4 +1,5 @@
 ## AIAgent
+#### Unlike fully autonomous agents, this system avoids the safety-capability gap by keeping critical computations outside the LLM and using it only for interpretation
 
 ### Project Architecture
 
