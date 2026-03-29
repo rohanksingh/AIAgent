@@ -1,5 +1,6 @@
 ## AIAgent
 #### Unlike fully autonomous agents, this system avoids the safety-capability gap by keeping critical computations outside the LLM and using it only for interpretation
+#### This is a single-LLM, multi-role agentic pipeline for trade surveillance that combines deterministic anomaly detection with LLM-driven reasoning, compliance interpretation, and reporting
 
 ### Project Architecture
 
